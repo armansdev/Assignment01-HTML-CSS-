@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+    overflow: hidden;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/pexels-maxyne-barcel-10402282 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header Section */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 50px;
+}
+  
+ul{
+    display: flex;
+    align-items: center;
+    font-family: "Red Rose";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffc233;
+}
+  
+.logo, li{
+    width: 125px;
+    cursor: pointer;
+}
+  
+.headerBtn{
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.headerBtn:hover{
+    color: #ff505f;
+    background-color: #ffffff;
+}
+
+/* Main Section */
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 65px;
+}
+
+h1{
+    font-family: "Dela Gothic One", cursive;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 95px;
+    color: #ffc233;
+}
+  
+.mainBtn{
+    color: #ffffff;
+    background: #ff505f;
+    font-family: "Red Rose";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    border: none;
+    padding: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.mainBtn:hover{
+    color: #ff505f;
+    background-color: #ffffff;
+}
+  
+/* Footer Section */
+footer{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+footer img{
+    width: 125px;
+}
